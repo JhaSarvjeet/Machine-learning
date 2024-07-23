@@ -40,7 +40,6 @@ t2=threading.Thread(target=print_letter)
 t=time.time()
 ##startthe thread
 t1.start()
-t1.join()
 t2.start()
 
 
